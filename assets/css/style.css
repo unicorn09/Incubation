@@ -12,14 +12,22 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444;
 }
-
 a {
   color: #4fa6d5;
+}
+.om{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 a:hover {
   color: #45beff;
   text-decoration: none;
+}
+#head{
+  text-align: center;
+  margin-bottom: 2rem;
+
 }
 
 h1, h2, h3, h4, h5, h6, .font-primary {
@@ -96,7 +104,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 100px;
 }
 
 #main {
@@ -132,6 +140,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   color: #a2cce3;
   text-decoration: none;
+}
+.first{
+  font-size: 2rem;
+
 }
 
 .nav-menu .drop-down ul {
@@ -329,7 +341,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   top: 0;
   width: 130%;
   height: 95%;
-  background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../img/hero-bg.jpg") center top no-repeat fixed;
+  background-image: url("slider1.jpeg");
   z-index: 0;
   border-radius: 0 0 50% 50%;
   transform: translateX(-50%) rotate(0deg);
@@ -507,7 +519,18 @@ section {
 .section-title p {
   margin-bottom: 0;
 }
+.shekharimg{
+  padding-top: 110px;
+}
 
+
+.services-icon {
+  color: #444;
+  display: inline-block;
+  font-size: 36px;
+  line-height: 36px;
+  margin-bottom: 20px;
+}
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -845,7 +868,9 @@ section {
 .features p:last-child {
   margin-bottom: 0;
 }
-
+.faclass{
+  padding: 5px;
+}
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -2196,4 +2221,35 @@ section {
 
 #footer .credits a {
   color: #a2cce3;
+}
+/* TEAM */
+#team{
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-bottom: 30px;
+}
+
+.teamcommitee{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+/* GALLERY CSS */
+
+#gallery{
+  margin-top: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 100px;
+}
+.galleryimg{
+  padding: 10px;
+  padding-top: 20px;
+}
+.galleryfont{
+  text-align: center;
+
+  marging-bottom: 20px;
+  margin-top: 20px;
 }
